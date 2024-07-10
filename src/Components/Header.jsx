@@ -2,6 +2,7 @@ import { width } from '@fortawesome/free-brands-svg-icons/fa42Group'
 import { faBars, faCalendarDays, faFilm, faLifeRing, faMagnifyingGlass, faPlay, faSquarePersonConfined, faVolleyball } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import {logo2} from 'src/assets/img/logo-2.png'
 
 function Header() {
   return (
@@ -9,7 +10,7 @@ function Header() {
     
     <nav class="navbar navbar-expand-lg bg-light border-0" data-bs-theme="light">
   <div class="container-fluid">
-    <a class="navbar-brand align-items-center" href="#"><img class="logo" src="src/assets/img/logo-2.png" alt="No-Image" /></a>
+    <a class="navbar-brand align-items-center" href="#"><img class="logo" src={logo2} alt="No-Image" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
